@@ -20,11 +20,11 @@ export const PageHead: React.FC<
   site,
   title,
   description,
-  // image,
-  // imageObjectPosition,
+  image,
+  imageObjectPosition,
   author,
-  // authorImage,
-  // detail,
+  authorImage,
+  detail,
   url
 }) => {
   title = title ?? site?.name
@@ -32,11 +32,11 @@ export const PageHead: React.FC<
 
   const socialImageUrl = getSocialImageUrl({
     title,
-    // image,
-    // imageObjectPosition,
-    author
-    // authorImage,
-    // detail
+    image,
+    imageObjectPosition,
+    author,
+    authorImage,
+    detail
   })
 
   return (
