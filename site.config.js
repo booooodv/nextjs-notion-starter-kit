@@ -1,6 +1,6 @@
 export default {
   // the site's root Notion page (required)
-  rootNotionPageId: 'FinnYan-5cbaffaeeede4f1d8674c5a272f0f52e',
+  rootNotionPageId: '5cbaffaeeede4f1d8674c5a272f0f52e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -8,7 +8,7 @@ export default {
 
   // basic site info (required)
   name: 'Transitive Bullshit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'finnyan.notion.site',
   author: 'Travis Fischer',
 
   // open graph metadata (optional)
